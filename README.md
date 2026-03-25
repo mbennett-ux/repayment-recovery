@@ -1,0 +1,4 @@
+
+STRIPE_PRICE_ID	price_1TEyCU3a3sFB7uRlKEAXCYa7
+RESEND_API_KEY	re_dqUcdiT4_MEGb6sKGJJeHEQgD2pxWvPjY
+FRONTEND_URL	(your Railway URL after deploy)

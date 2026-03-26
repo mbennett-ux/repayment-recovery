@@ -1,0 +1,6 @@
+[build]
+build = "npm install"
+start = "node server/index.js"
+
+[deploy]
+numReplicas = 1

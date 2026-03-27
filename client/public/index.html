@@ -23,9 +23,15 @@
       <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
         Automatically recover 20-30% of failed Stripe payments. We retry failed payments, send smart reminders, and help customers update payment methods.
       </p>
-      <a href="#pricing" class="bg-green-500 hover:bg-green-600 text-gray-900 font-bold py-3 px-8 rounded-lg transition">
-        Start Free Trial
-      </a>
+      
+      <form action="https://api.sheetmonkey.io/form/541cqkj9FeywsAR9Zf4s9L" method="post" class="flex flex-col sm:flex-row justify-center gap-3 max-w-lg mx-auto">
+        <input type="email" name="Email" required placeholder="Enter your email"
+          class="px-4 py-3 rounded-lg text-gray-900 w-full sm:w-64">
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button type="submit" class="bg-green-500 hover:bg-green-600 text-gray-900 font-bold py-3 px-6 rounded-lg transition text-lg whitespace-nowrap">
+          Start Free Trial
+        </button>
+      </form>
     </div>
 
     <div id="features" class="bg-gray-800 py-20">

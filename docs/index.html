@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PaymentRecover - Stop Losing Money on Failed Payments</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+  <div class="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800">
+    <nav class="container mx-auto px-6 py-6 flex justify-between items-center">
+      <div class="text-2xl font-bold text-green-400">PaymentRecover</div>
+      <div class="space-x-6">
+        <a href="#features" class="hover:text-green-400 transition">Features</a>
+        <a href="#pricing" class="hover:text-green-400 transition">Pricing</a>
+      </div>
+    </nav>
+
+    <div class="container mx-auto px-6 py-20 text-center">
+      <h1 class="text-5xl font-bold mb-6">
+        Stop Losing Money on <span class="text-green-400">Failed Payments</span>
+      </h1>
+      <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+        Automatically recover 20-30% of failed Stripe payments. We retry failed payments, send smart reminders, and help customers update payment methods.
+      </p>
+      
+      <form action="https://api.sheetmonkey.io/form/541cqkj9FeywsAR9Zf4s9L" method="post" class="flex flex-col sm:flex-row justify-center gap-3 max-w-lg mx-auto">
+        <input type="email" name="Email" required placeholder="Enter your email"
+          class="px-4 py-3 rounded-lg text-gray-900 w-full sm:w-64">
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button type="submit" class="bg-green-500 hover:bg-green-600 text-gray-900 font-bold py-3 px-6 rounded-lg transition text-lg whitespace-nowrap">
+          Start Free Trial
+        </button>
+      </form>
+    </div>
+
+    <div id="features" class="bg-gray-800 py-20">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-16">How It Works</h2>
+        <div class="grid md:grid-cols-3 gap-10">
+          <div class="bg-gray-700 p-8 rounded-xl">
+            <div class="text-4xl mb-4">🔄</div>
+            <h3 class="text-xl font-bold mb-4">Automatic Retries</h3>
+            <p class="text-gray-300">We automatically retry failed payments on smart schedules.</p>
+          </div>
+          <div class="bg-gray-700 p-8 rounded-xl">
+            <div class="text-4xl mb-4">📧</div>
+            <h3 class="text-xl font-bold mb-4">Smart Notifications</h3>
+            <p class="text-gray-300">Send friendly reminders. Customers update payment method with one click.</p>
+          </div>
+          <div class="bg-gray-700 p-8 rounded-xl">
+            <div class="text-4xl mb-4">💰</div>
+            <h3 class="text-xl font-bold mb-4">Keep More Revenue</h3>
+            <p class="text-gray-300">Recover 20-30% of failed payments automatically.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="pricing" class="py-20">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold mb-6">$49/month</h2>
+        <p class="text-xl text-gray-300 mb-10">7-day free trial. Cancel anytime.</p>
+        <button class="bg-green-500 hover:bg-green-600 text-gray-900 font-bold py-4 px-10 rounded-lg transition text-lg">
+          Start Free Trial
+        </button>
+      </div>
+    </div>
+
+    <footer class="bg-gray-900 py-10 text-center text-gray-400">
+      <p>© 2026 PaymentRecover.</p>
+    </footer>
+  </div>
+</body>
+</html>
